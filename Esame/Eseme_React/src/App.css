@@ -1,0 +1,66 @@
+/* Navbar personalizzata */
+.custom-navbar {
+  background-color: #037ffc !important; /* Colore navbar */
+  padding: 15px;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Contenitore della tabella */
+.table-container {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente la tabella */
+  align-items: center; /* Centra verticalmente la tabella */
+  min-height: 100vh; /* Altezza minima per centrare meglio */
+  padding-top: 100px; /* Evita che la navbar copra la tabella */
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+/* Tabella */
+.custom-table {
+  width: 100%; /* Occupa tutta la larghezza disponibile */
+  max-width: 1200px; /* Limite massimo per evitare che diventi troppo larga */
+  border-collapse: collapse; /* Unisce i bordi */
+  margin: auto; /* Centra la tabella */
+  table-layout: auto; /* Permette alle colonne di adattarsi al contenuto */
+  word-wrap: break-word; /* Permette alle parole lunghe di andare a capo */
+}
+
+/* Intestazione tabella */
+.custom-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  white-space: nowrap; /* Evita che il testo nelle intestazioni vada a capo */
+}
+
+/* Celle della tabella */
+.custom-table td {
+  text-align: center;
+  padding: 15px;
+  word-break: break-word; /* Divide le parole lunghe se necessario */
+  overflow-wrap: break-word; /* Assicura che il testo venga spezzato correttamente */
+}
+
+/* Colonne flessibili */
+.custom-table th, .custom-table td {
+  min-width: 100px; /* Imposta una larghezza minima per evitare compressione */
+  max-width: 300px; /* Evita che le celle diventino troppo larghe */
+}
+
+/* Messaggio di errore */
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}

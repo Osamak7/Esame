@@ -1,0 +1,30 @@
+{
+  "assenza": [
+    { "Id": 1, "Nome": "Mario Rossi", "Motivo": "Malattia", "Giorni": 3},
+    { "Id": 2, "Nome": "Luca Bianchi", "Motivo": "Congedo", "Giorni": 1},
+    { "Id": 3, "Nome": "Giulia Verdi", "Motivo": "Ferie", "Giorni": 6 },
+    { "Id": 4, "Nome": "Alessandra Neri", "Motivo": "Malattia", "Giorni": 8},
+    { "Id": 5, "Nome": "Paolo Galli", "Motivo": "Congedo",  "Giorni": 2},
+    { "Id": 6, "Nome": "Elena Bruni", "Motivo": "Malattia", "Giorni": 10 },
+    { "Id": 7, "Nome": "Marco Conti", "Motivo": "Ferie", "Giorni": 4 },
+    { "Id": 8, "Nome": "Francesca De Luca", "Motivo": "Malattia", "Giorni": 7 }
+  ],
+  "progetto": [
+    { "Id": 101, "Titolo": "E-commerce","Stato": "In corso" },
+    { "Id": 102, "Titolo": "Sistema di gestione", "Stato": "Completato" },
+    { "Id": 103, "Titolo": "App mobile", "Stato": "In attesa" },
+    { "Id": 104, "Titolo": "Gestione risorse umane", "Stato": "In corso" },
+    { "Id": 105, "Titolo": "Piattaforma di analisi dati", "Stato": "Completato" },
+    { "Id": 106, "Titolo": "CRM per clienti", "Stato": "In attesa" },
+    { "Id": 107, "Titolo": "Sviluppo API","Stato": "In corso" },
+    { "Id": 108, "Titolo": "Sito vetrina",  "Stato": "Completato" }
+  ],
+  "wp": [
+    { "Id": 201, "Descrizione": "Sviluppo frontend", "Responsabile": "Alessandro", "Priorità": "Alta" },
+    { "Id": 202, "Descrizione": "Database e backend", "Responsabile": "Elisa", "Priorità": "Alta"},
+    { "Id": 203, "Descrizione": "Testing e QA", "Responsabile": "Giovanni", "Priorità": "Media" },
+    { "Id": 204, "Descrizione": "Sicurezza e protezione dati", "Responsabile": "Francesco", "Priorità": "Alta" },
+    { "Id": 205, "Descrizione": "Integrazione API", "Responsabile": "Maria", "Priorità": "Alta" },
+    { "Id": 206, "Descrizione": "Ottimizzazione prestazioni", "Responsabile": "Luigi", "Priorità": "Media" }
+  ]
+}

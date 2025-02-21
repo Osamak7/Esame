@@ -1,0 +1,32 @@
+{
+  "assenza": [
+    { "Id": 1, "Nome": "Mario Rossi", "Motivo": "Malattia", "DataInizio": "2025-02-15", "DataFine": "2025-02-18", "Giorni": 3, "Note": "Influenza stagionale", "Responsabile": "HR", "Priorità": "Normale" },
+    { "Id": 2, "Nome": "Luca Bianchi", "Motivo": "Congedo", "DataInizio": "2025-02-17", "DataFine": "2025-02-17", "Giorni": 1, "Note": "Congedo parentale", "Responsabile": "Supervisore", "Priorità": "Alta" },
+    { "Id": 3, "Nome": "Giulia Verdi", "Motivo": "Ferie", "DataInizio": "2025-02-14", "DataFine": "2025-02-20", "Giorni": 6, "Note": "Vacanze programmate", "Responsabile": "HR", "Priorità": "Normale" },
+    { "Id": 4, "Nome": "Alessandra Neri", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-18", "Giorni": 8, "Note": "Intervento chirurgico", "Responsabile": "HR", "Priorità": "Alta" },
+    { "Id": 5, "Nome": "Paolo Galli", "Motivo": "Congedo", "DataInizio": "2025-02-18", "DataFine": "2025-02-19", "Giorni": 2, "Note": "Matrimonio", "Responsabile": "Supervisore", "Priorità": "Alta" },
+    { "Id": 6, "Nome": "Elena Bruni", "Motivo": "Malattia", "DataInizio": "2025-02-01", "DataFine": "2025-02-10", "Giorni": 10, "Note": "Covid-19", "Responsabile": "HR", "Priorità": "Alta" },
+    { "Id": 7, "Nome": "Marco Conti", "Motivo": "Ferie", "DataInizio": "2025-02-16", "DataFine": "2025-02-19", "Giorni": 4, "Note": "Viaggio all'estero", "Responsabile": "HR", "Priorità": "Normale" },
+    { "Id": 8, "Nome": "Francesca De Luca", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-17", "Giorni": 7, "Note": "Problema ortopedico", "Responsabile": "HR", "Priorità": "Alta" }
+  ],
+  "progetto": [
+    { "Id": 101, "Titolo": "E-commerce", "DataInizio": "2025-01-01", "DataFine": "2025-06-01", "Note": "Nuova piattaforma", "Responsabile": "Andrea R.", "Stato": "In corso" },
+    { "Id": 102, "Titolo": "Sistema di gestione", "DataInizio": "2024-09-01", "DataFine": "2024-12-15", "Note": "Rifattorizzazione codice", "Responsabile": "Luca F.", "Stato": "Completato" },
+    { "Id": 103, "Titolo": "App mobile", "DataInizio": "2025-03-01", "DataFine": "2025-07-01", "Note": "Attesa design UI", "Responsabile": "Maria C.", "Stato": "In attesa" },
+    { "Id": 104, "Titolo": "Gestione risorse umane", "DataInizio": "2025-02-01", "DataFine": "2025-05-01", "Note": "Automazione processi HR", "Responsabile": "Elisa B.", "Stato": "In corso" },
+    { "Id": 105, "Titolo": "Piattaforma di analisi dati", "DataInizio": "2024-08-01", "DataFine": "2024-12-01", "Note": "Modelli AI", "Responsabile": "Francesco P.", "Stato": "Completato" },
+    { "Id": 106, "Titolo": "CRM per clienti", "DataInizio": "2025-04-01", "DataFine": "2025-09-01", "Note": "Analisi dei requisiti", "Responsabile": "Simone V.", "Stato": "In attesa" },
+    { "Id": 107, "Titolo": "Sviluppo API", "DataInizio": "2025-01-15", "DataFine": "2025-05-15", "Note": "Compatibilità con nuovi sistemi", "Responsabile": "Giorgio M.", "Stato": "In corso" },
+    { "Id": 108, "Titolo": "Sito vetrina", "DataInizio": "2024-11-01", "DataFine": "2025-01-30", "Note": "Aggiornamento UI/UX", "Responsabile": "Sara L.", "Stato": "Completato" }
+  ],
+  "wp": [
+    { "Id": 201, "Descrizione": "Sviluppo frontend", "Responsabile": "Alessandro", "Priorità": "Alta", "Scadenza": "2025-02-28", "Note": "React + TailwindCSS" },
+    { "Id": 202, "Descrizione": "Database e backend", "Responsabile": "Elisa", "Priorità": "Alta", "Scadenza": "2025-03-15", "Note": "PostgreSQL + Node.js" },
+    { "Id": 203, "Descrizione": "Testing e QA", "Responsabile": "Giovanni", "Priorità": "Media", "Scadenza": "2025-03-01", "Note": "Automazione test Cypress" },
+    { "Id": 204, "Descrizione": "Sicurezza e protezione dati", "Responsabile": "Francesco", "Priorità": "Alta", "Scadenza": "2025-02-20", "Note": "Implementazione OAuth2" },
+    { "Id": 205, "Descrizione": "Integrazione API", "Responsabile": "Maria", "Priorità": "Alta", "Scadenza": "2025-03-10", "Note": "RESTful API con Express.js" },
+    { "Id": 206, "Descrizione": "Ottimizzazione prestazioni", "Responsabile": "Luigi", "Priorità": "Media", "Scadenza": "2025-03-05", "Note": "Profiling e caching" },
+    { "Id": 207, "Descrizione": "Gestione cloud", "Responsabile": "Simona", "Priorità": "Bassa", "Scadenza": "2025-04-01", "Note": "Deployment su AWS" },
+    { "Id": 208, "Descrizione": "UI/UX Design", "Responsabile": "Anna", "Priorità": "Alta", "Scadenza": "2025-02-25", "Note": "Figma + Design System" }
+  ]
+}
