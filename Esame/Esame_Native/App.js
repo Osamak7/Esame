@@ -12,6 +12,7 @@ import axios from "axios";
 import mockData from "./assets/mockData.json";
 
 const { width } = Dimensions.get("window");
+const SERVER_URL = "http://172.25.77.29:5004"; // IP corretto del server Flask
 
 export default function App() {
   const [data, setData] = useState(null);
@@ -20,9 +21,13 @@ export default function App() {
 
   const fetchData = async (endpoint) => {
     try {
-      const response = await axios.get(`http://localhost:5004${endpoint}`);
+      const response = await axios.get(`${SERVER_URL}${endpoint}`);
       setData(response.data);
+      if (response.data.length > 0) {
+        setHeaders(Object.keys(response.data[0]));
+      }
     } catch (err) {
+      console.error("Errore nella richiesta:", err);
       const dataset = mockData[endpoint.replace("/", "")];
       setData(dataset);
       if (dataset.length > 0) {

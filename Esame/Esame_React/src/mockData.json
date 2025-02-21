@@ -1,13 +1,13 @@
 {
   "assenza": [
-    { "Id": 1, "Nome": "Mario Rossi", "Motivo": "Malattia", "DataInizio": "2025-02-15", "DataFine": "2025-02-18", "Giorni": 3, "Note": "Influenza stagionale", "Responsabile": "HR", "Priorità": "Normale" },
-    { "Id": 2, "Nome": "Luca Bianchi", "Motivo": "Congedo", "DataInizio": "2025-02-17", "DataFine": "2025-02-17", "Giorni": 1, "Note": "Congedo parentale", "Responsabile": "Supervisore", "Priorità": "Alta" },
-    { "Id": 3, "Nome": "Giulia Verdi", "Motivo": "Ferie", "DataInizio": "2025-02-14", "DataFine": "2025-02-20", "Giorni": 6, "Note": "Vacanze programmate", "Responsabile": "HR", "Priorità": "Normale" },
-    { "Id": 4, "Nome": "Alessandra Neri", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-18", "Giorni": 8, "Note": "Intervento chirurgico", "Responsabile": "HR", "Priorità": "Alta" },
-    { "Id": 5, "Nome": "Paolo Galli", "Motivo": "Congedo", "DataInizio": "2025-02-18", "DataFine": "2025-02-19", "Giorni": 2, "Note": "Matrimonio", "Responsabile": "Supervisore", "Priorità": "Alta" },
-    { "Id": 6, "Nome": "Elena Bruni", "Motivo": "Malattia", "DataInizio": "2025-02-01", "DataFine": "2025-02-10", "Giorni": 10, "Note": "Covid-19", "Responsabile": "HR", "Priorità": "Alta" },
-    { "Id": 7, "Nome": "Marco Conti", "Motivo": "Ferie", "DataInizio": "2025-02-16", "DataFine": "2025-02-19", "Giorni": 4, "Note": "Viaggio all'estero", "Responsabile": "HR", "Priorità": "Normale" },
-    { "Id": 8, "Nome": "Francesca De Luca", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-17", "Giorni": 7, "Note": "Problema ortopedico", "Responsabile": "HR", "Priorità": "Alta" }
+    { "Id": 1, "Nome": "Mario Rossi", "Motivo": "Malattia", "DataInizio": "2025-02-15", "DataFine": "2025-02-18", "Note": "Influenza stagionale", "Responsabile": "HR", "Priorità": "Normale", "Giorni": 4 },
+    { "Id": 2, "Nome": "Luca Bianchi", "Motivo": "Congedo", "DataInizio": "2025-02-17", "DataFine": "2025-02-17", "Note": "Congedo parentale", "Responsabile": "Supervisore", "Priorità": "Alta", "Giorni": 1 },
+    { "Id": 3, "Nome": "Giulia Verdi", "Motivo": "Ferie", "DataInizio": "2025-02-14", "DataFine": "2025-02-20", "Note": "Vacanze programmate", "Responsabile": "HR", "Priorità": "Normale", "Giorni": 7 },
+    { "Id": 4, "Nome": "Alessandra Neri", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-18", "Note": "Intervento chirurgico", "Responsabile": "HR", "Priorità": "Alta", "Giorni": 9 },
+    { "Id": 5, "Nome": "Paolo Galli", "Motivo": "Congedo", "DataInizio": "2025-02-18", "DataFine": "2025-02-19", "Note": "Matrimonio", "Responsabile": "Supervisore", "Priorità": "Alta", "Giorni": 2 },
+    { "Id": 6, "Nome": "Elena Bruni", "Motivo": "Malattia", "DataInizio": "2025-02-01", "DataFine": "2025-02-10", "Note": "Covid-19", "Responsabile": "HR", "Priorità": "Alta", "Giorni": 10 },
+    { "Id": 7, "Nome": "Marco Conti", "Motivo": "Ferie", "DataInizio": "2025-02-16", "DataFine": "2025-02-19", "Note": "Viaggio all'estero", "Responsabile": "HR", "Priorità": "Normale", "Giorni": 4 },
+    { "Id": 8, "Nome": "Francesca De Luca", "Motivo": "Malattia", "DataInizio": "2025-02-10", "DataFine": "2025-02-17", "Note": "Problema ortopedico", "Responsabile": "HR", "Priorità": "Alta", "Giorni": 8 }
   ],
   "progetto": [
     { "Id": 101, "Titolo": "E-commerce", "DataInizio": "2025-01-01", "DataFine": "2025-06-01", "Note": "Nuova piattaforma", "Responsabile": "Andrea R.", "Stato": "In corso" },
